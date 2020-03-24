@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Baloo-bold";
+  src: url("../fonts/Baloo2-Bold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Baloo-semiBold";
+  src: url("../fonts/Baloo2-SemiBold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Baloo-regular";
+  src: url("../fonts/Baloo2-Regular.ttf");
+  font-style: normal; }
+
+html {
+  font-size: 10px;
+  font-family: Baloo-regular; }
+
+body {
+  background: url("../../images/bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.6rem; }
+
+button {
+  border: 0;
+  padding: 10px 20px; }
+  button:focus {
+    outline: none; }
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  main .forms {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem; }
+    main .forms .info {
+      color: #fff;
+      margin-bottom: 5rem;
+      text-align: center; }
+      main .forms .info h3 {
+        font-size: 4rem;
+        margin-bottom: 1rem; }
+      main .forms .info a {
+        color: inherit; }
+    main .forms .tabs {
+      width: 100%;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 1.6rem; }
+      main .forms .tabs button {
+        background: #ffc74a;
+        width: 48%; }
+        main .forms .tabs button:hover {
+          background: #fff; }
+      main .forms .tabs .server-error {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 5rem;
+        border: 1px solid #ed6950;
+        color: #ffc74a;
+        font-size: 2rem;
+        font-family: "Baloo-semiBold";
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box; }
+    main .forms .errors {
+      display: none;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 5rem;
+      border: 1px solid #ed6950;
+      color: #ffc74a;
+      font-size: 2rem;
+      font-family: "Baloo-semiBold"; }
+    main .forms form .form-text {
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 1.6rem 0;
+      border: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0);
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      padding: 10px 20px; }
+      main .forms form .form-text:focus {
+        border-bottom-color: #ffc74a; }
+    main .forms form button {
+      float: right;
+      background: #ffc74a;
+      color: #000; }
+      main .forms form button:hover {
+        background: #fff; }
+    main .forms button.show {
+      background: rgba(0, 0, 0, 0.75);
+      color: #ffc74a;
+      border: 0; }
+      main .forms button.show:hover {
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff; }
+    main .forms div.enabled {
+      display: block; }
+    main .forms div.disabled {
+      display: none; }
+
+footer {
+  color: #fff;
+  padding: 20px 0; }

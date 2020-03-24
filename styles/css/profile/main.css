@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Baloo-bold";
+  src: url("../fonts/Baloo2-Bold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Baloo-semiBold";
+  src: url("../fonts/Baloo2-SemiBold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Baloo-regular";
+  src: url("../fonts/Baloo2-Regular.ttf");
+  font-style: normal; }
+
+html {
+  font-size: 10px;
+  font-family: Baloo-regular; }
+
+body {
+  background: url("../../images/bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.6rem; }
+
+button {
+  border: 0;
+  padding: 10px 20px; }
+  button:focus {
+    outline: none; }
+
+body {
+  background: url("../../../images/profile/bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  main .user-data {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main .user-data h3 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+      text-decoration: underline; }
+  main button.logout {
+    background: #ed6950;
+    color: #fff; }
+    main button.logout a {
+      color: #fff; }

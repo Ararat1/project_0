@@ -1,0 +1,109 @@
+// variables
+@import ./variables
+
+// fonts
+@import ./fonts
+
+// default styles
+@import ./default
+
+// SASS CODE
+
+main
+    height: 100vh
+    display: flex
+    align-items: center
+
+    .forms
+        background: rgba(0, 0, 0, .5)
+        padding: 2rem
+
+        .info
+            color: $light
+            margin-bottom: 5rem
+            text-align: center
+
+            h3
+                font-size: 4rem
+                margin-bottom: 1rem
+
+            a
+                color: inherit
+
+        .tabs
+            width: 100%
+            text-align: center
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 1.6rem
+
+            button
+                background: $yellow
+                width: 48%
+
+                &:hover
+                    background: $light
+
+            .server-error
+                display: flex
+                justify-content: center
+                align-items: center
+                height: 5rem
+                border: 1px solid $red
+                color: $yellow
+                font-size: 2rem
+                font-family: "Baloo-semiBold"
+                box-sizing: content-box
+
+        .errors
+            display: none
+            justify-content: center
+            align-items: center
+            height: 5rem
+            border: 1px solid $red
+            color: $yellow
+            font-size: 2rem
+            font-family: "Baloo-semiBold"
+
+        form
+            .form-text
+                display: block
+                width: 100%
+                box-sizing: border-box
+                margin: 1.6rem 0
+                border: 0
+                border-bottom: 1px solid rgba(0, 0, 0, 0)
+                background: rgba(0, 0, 0, .75)
+                color: $light
+                padding: 10px 20px
+
+                &:focus
+                    border-bottom-color: $yellow
+
+            button
+                float: right
+                background: $yellow
+                color: $dark
+
+                &:hover
+                    background: $light
+
+        button.show
+            background: rgba(0, 0, 0, .75)
+            color: $yellow
+            border: 0
+            
+            &:hover
+                background: rgba(0, 0, 0, .75)
+                color: $light
+
+        div.enabled
+            display: block
+
+        div.disabled
+            display: none
+
+footer
+    color: $light
+    padding: 20px 0
